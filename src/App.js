@@ -14,7 +14,7 @@ YellowBox.ignoreWarnings([
 export const App = () => {
   return (
     <SafeAreaProvider>
-      <StatusBar backgroundColor="transparent" barStyle="dark-content" />
+      <StatusBar backgroundColor="#fff" barStyle="light-content" />
       <SafeAreaView style={{flex: 1}}>
         <AppRouter />
       </SafeAreaView>
